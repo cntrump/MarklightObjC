@@ -6,14 +6,15 @@
 //  Copyright © 2018年 vvveiii. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#include <TargetConditionals.h>
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 #import <UIKit/UIKit.h>
 #else
 #import <AppKit/AppKit.h>
 #endif
 
+#import <Foundation/Foundation.h>
 #import "UniversalTypes.h"
 #import "MarklightStyleApplier.h"
 #import "MarklightRegex.h"

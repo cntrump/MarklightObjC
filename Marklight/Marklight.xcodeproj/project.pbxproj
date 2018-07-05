@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73324BD220EDCF97003D9FC7 /* Marklight.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72220ED38DB00776655 /* Marklight.m */; };
+		73324BD320EDCF97003D9FC7 /* MarklightRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A71A20ED38DB00776655 /* MarklightRegex.m */; };
+		73324BD420EDCF97003D9FC7 /* MarklightTextProcessingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A71F20ED38DB00776655 /* MarklightTextProcessingResult.m */; };
+		73324BD520EDCF97003D9FC7 /* MarklightTextProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72820ED38DC00776655 /* MarklightTextProcessor.m */; };
+		73324BD620EDCF97003D9FC7 /* MarklightTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72420ED38DB00776655 /* MarklightTextStorage.m */; };
+		73324BD720EDCF97003D9FC7 /* NSArray+appending.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72120ED38DB00776655 /* NSArray+appending.m */; };
+		73324BD820EDCF97003D9FC7 /* NSString+paragraphRangeAt.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72620ED38DB00776655 /* NSString+paragraphRangeAt.m */; };
+		73324BD920EDCF97003D9FC7 /* UniversalTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72920ED38DC00776655 /* UniversalTypes.m */; };
 		73D8A71420ED38AD00776655 /* Marklight.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A71220ED38AD00776655 /* Marklight.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D8A72A20ED38DC00776655 /* MarklightRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A71A20ED38DB00776655 /* MarklightRegex.m */; };
 		73D8A72B20ED38DC00776655 /* MarklightTextProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A71B20ED38DB00776655 /* MarklightTextProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D8A72C20ED38DC00776655 /* MarklightTextProcessingResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A71C20ED38DB00776655 /* MarklightTextProcessingResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D8A72D20ED38DC00776655 /* MarklightRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A71D20ED38DB00776655 /* MarklightRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D8A72E20ED38DC00776655 /* MarklightStyleApplier.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A71E20ED38DB00776655 /* MarklightStyleApplier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D8A72F20ED38DC00776655 /* MarklightTextProcessingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A71F20ED38DB00776655 /* MarklightTextProcessingResult.m */; };
 		73D8A73020ED38DC00776655 /* MarklightTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A72020ED38DB00776655 /* MarklightTextStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D8A73120ED38DC00776655 /* NSArray+appending.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72120ED38DB00776655 /* NSArray+appending.m */; };
-		73D8A73220ED38DC00776655 /* Marklight.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72220ED38DB00776655 /* Marklight.m */; };
 		73D8A73320ED38DC00776655 /* UniversalTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A72320ED38DB00776655 /* UniversalTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D8A73420ED38DC00776655 /* MarklightTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72420ED38DB00776655 /* MarklightTextStorage.m */; };
 		73D8A73520ED38DC00776655 /* NSString+paragraphRangeAt.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A72520ED38DB00776655 /* NSString+paragraphRangeAt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D8A73620ED38DC00776655 /* NSString+paragraphRangeAt.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72620ED38DB00776655 /* NSString+paragraphRangeAt.m */; };
 		73D8A73720ED38DC00776655 /* NSArray+appending.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A72720ED38DC00776655 /* NSArray+appending.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D8A73820ED38DC00776655 /* MarklightTextProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72820ED38DC00776655 /* MarklightTextProcessor.m */; };
-		73D8A73920ED38DC00776655 /* UniversalTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A72920ED38DC00776655 /* UniversalTypes.m */; };
 		73E3961420EDB31F0015813B /* Marklight.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A71220ED38AD00776655 /* Marklight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73E3961520EDB31F0015813B /* MarklightRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A71D20ED38DB00776655 /* MarklightRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73E3961620EDB31F0015813B /* MarklightStyleApplier.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8A71E20ED38DB00776655 /* MarklightStyleApplier.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -267,14 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D8A72F20ED38DC00776655 /* MarklightTextProcessingResult.m in Sources */,
-				73D8A73920ED38DC00776655 /* UniversalTypes.m in Sources */,
-				73D8A73420ED38DC00776655 /* MarklightTextStorage.m in Sources */,
-				73D8A73220ED38DC00776655 /* Marklight.m in Sources */,
-				73D8A73620ED38DC00776655 /* NSString+paragraphRangeAt.m in Sources */,
-				73D8A73120ED38DC00776655 /* NSArray+appending.m in Sources */,
-				73D8A73820ED38DC00776655 /* MarklightTextProcessor.m in Sources */,
-				73D8A72A20ED38DC00776655 /* MarklightRegex.m in Sources */,
+				73324BD220EDCF97003D9FC7 /* Marklight.m in Sources */,
+				73324BD320EDCF97003D9FC7 /* MarklightRegex.m in Sources */,
+				73324BD420EDCF97003D9FC7 /* MarklightTextProcessingResult.m in Sources */,
+				73324BD520EDCF97003D9FC7 /* MarklightTextProcessor.m in Sources */,
+				73324BD620EDCF97003D9FC7 /* MarklightTextStorage.m in Sources */,
+				73324BD720EDCF97003D9FC7 /* NSArray+appending.m in Sources */,
+				73324BD820EDCF97003D9FC7 /* NSString+paragraphRangeAt.m in Sources */,
+				73324BD920EDCF97003D9FC7 /* UniversalTypes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +349,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,6 +405,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -479,7 +481,6 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vvveiii.marklight.Marklight-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
@@ -506,7 +507,6 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vvveiii.marklight.Marklight-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;

@@ -50,7 +50,7 @@
  */
 @property(nonatomic,assign) BOOL hideSyntax;
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 
 // MARK: Font Style Settings
 

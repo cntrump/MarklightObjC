@@ -8,7 +8,7 @@
 
 #import "MarklightTextProcessor.h"
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 #import <UIKit/UIKit.h>
 #else
 #import <AppKit/AppKit.h>
@@ -89,7 +89,7 @@
     [styleApplier resetMarklightTextAttributesTextSize:self.textSize range:range];
 }
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 
 /// Text size measured in points.
 - (CGFloat)textSize {

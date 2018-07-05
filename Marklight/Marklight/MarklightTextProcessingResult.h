@@ -6,7 +6,9 @@
 //  Copyright © 2018年 vvveiii. All rights reserved.
 //
 
-#if TARGET_OS_IPHONE
+#include <TargetConditionals.h>
+
+#if TARGET_OS_IOS
 #import <UIKit/UIKit.h>
 #else
 #import <AppKit/AppKit.h>
