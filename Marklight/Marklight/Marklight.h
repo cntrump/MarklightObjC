@@ -18,6 +18,7 @@
 #import "UniversalTypes.h"
 #import "MarklightStyleApplier.h"
 #import "MarklightRegex.h"
+#import "MarklightTextStorage.h"
 
 @interface Marklight : NSObject
 

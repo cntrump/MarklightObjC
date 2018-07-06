@@ -13,6 +13,8 @@
     UITextView *_textView;
 }
 
+@property(nonatomic,copy) MarklightTextStorage *textStorage;
+
 @end
 
 @implementation ViewController
@@ -23,16 +25,16 @@
 
     self.navigationItem.title = NSLocalizedString(@"Marklight", nil);
 
-    MarklightTextStorage *textStorage = [[MarklightTextStorage alloc] init];
-    textStorage.marklightTextProcessor.codeColor = [UIColor orangeColor];
-    textStorage.marklightTextProcessor.quoteColor = [UIColor darkGrayColor];
-    textStorage.marklightTextProcessor.syntaxColor = [UIColor blueColor];
-    textStorage.marklightTextProcessor.codeFontName = @"Courier";
-    textStorage.marklightTextProcessor.fontTextStyle = UIFontTextStyleSubheadline;
-    textStorage.marklightTextProcessor.hideSyntax = NO;
+    self.textStorage = [[MarklightTextStorage alloc] init];
+    self.textStorage.marklightTextProcessor.codeColor = [UIColor orangeColor];
+    self.textStorage.marklightTextProcessor.quoteColor = [UIColor darkGrayColor];
+    self.textStorage.marklightTextProcessor.syntaxColor = [UIColor blueColor];
+    self.textStorage.marklightTextProcessor.codeFontName = @"Courier";
+    self.textStorage.marklightTextProcessor.fontTextStyle = UIFontTextStyleSubheadline;
+    self.textStorage.marklightTextProcessor.hideSyntax = NO;
 
     NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
-    [textStorage addLayoutManager:layoutManager];
+    [self.textStorage addLayoutManager:layoutManager];
 
     NSTextContainer *textContainer = [[NSTextContainer alloc] init];
     [layoutManager addTextContainer:textContainer];

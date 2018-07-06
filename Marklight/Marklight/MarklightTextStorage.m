@@ -9,7 +9,7 @@
 #import "MarklightTextStorage.h"
 #import "UniversalTypes.h"
 
-@interface MarklightTextStorage ()
+@interface MarklightTextStorage () <NSCopying, NSMutableCopying>
 
 /// Delegate from this class cluster to a regular `NSTextStorage` instance
 /// because it does some additional performance optimizations
@@ -35,6 +35,22 @@
     }
 
     return self;
+}
+
+- (id)copyWithZone:(NSZone *)zone {
+    MarklightTextStorage *model = [[MarklightTextStorage allocWithZone:zone] init];
+    model.imp = self.imp;
+    model.marklightTextProcessor = self.marklightTextProcessor;
+
+    return model;
+}
+
+- (id)mutableCopyWithZone:(NSZone *)zone {
+    MarklightTextStorage *model = [[MarklightTextStorage allocWithZone:zone] init];
+    model.imp = self.imp;
+    model.marklightTextProcessor = self.marklightTextProcessor;
+
+    return model;
 }
 
 /**
